@@ -1,5 +1,3 @@
-# Makefile for project with structures
-
 program: build/main.o build/student.o
 	gcc -o program build/main.o build/student.o
 
